@@ -1,0 +1,32 @@
+:root {
+  /* Font-size */
+  --main-size: 6rem;
+  --secondary-size: 3rem;
+  --third-size: 1.1rem;
+
+  /* Width-size */
+  --container-width: 1200px;
+
+  /* Color */
+  --bg-color: #fff;
+  --text-color: #221314;
+  --second-color: #5a7184;
+  --main-color: #6e54fa;
+}
+
+@media all and (max-width: 1400px) {
+  :root {
+    --main-size: 4.5rem;
+    --secondary-size: 2.3rem;
+    --third-size: 1rem;
+    transition: 0.2s;
+  }
+}
+
+@media all and (max-width: 575px) {
+  :root {
+    --main-size: 3.8rem;
+    --secondary-size: 1.8rem;
+    transition: 0.2s;
+  }
+}
